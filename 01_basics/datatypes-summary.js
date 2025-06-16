@@ -37,3 +37,29 @@ const myfunction = function(){
 }
 
 console.log(typeof anotherId);
+
+//++++++++++++++++Memory++++++++++
+
+// stack(primitive),  heap (non-primitive)
+
+let myYoutubename = "Vopenderchaudhary"
+
+let anothername = myYoutubename
+anothername = "thevlogger"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+   email: "uder@google.com",
+   upi: "usesr@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vopenderchaudhary@gmial.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
